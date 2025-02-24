@@ -112,13 +112,17 @@ class MyHomePage extends StatelessWidget {
             children: [
               FloatingActionButton(
                 onPressed: counter.decrement,
-                tooltip: 'Decrement',
-                child: const Icon(Icons.remove),
+                tooltip: 'Decrease Age',
+                child: const Text('Decrease Age',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 12)),
               ),
               FloatingActionButton(
                 onPressed: counter.increment,
-                tooltip: 'Increment',
-                child: const Icon(Icons.add),
+                tooltip: 'Increase Age',
+                child: const Text('Increase Age',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 12)),
               ),
             ],
           ),
