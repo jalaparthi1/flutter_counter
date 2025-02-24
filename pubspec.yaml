@@ -1,0 +1,40 @@
+name: flutter_provider_counter
+description: "A new Flutter project using Provider for state management."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Provider package for state management
+  provider: ^6.1.2
+
+  # Cupertino Icons for iOS-style icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting package for Flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets here if needed
+  # assets:
+  #   - assets/images/example.png
+
+  # Custom fonts can be added like this:
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
