@@ -93,12 +93,16 @@ class MyHomePage extends StatelessWidget {
                     counter.notifyListeners();
                   },
                 ),
-                LinearProgressIndicator(
-                  value: counter.value / 99,
-                  color: counter.value < 33
-                      ? Colors.green
-                      : (counter.value < 67 ? Colors.yellow : Colors.red),
-                  backgroundColor: Colors.grey.shade300,
+                Padding(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                  child: LinearProgressIndicator(
+                    value: counter.value / 99,
+                    color: counter.value < 33
+                        ? Colors.green
+                        : (counter.value < 67 ? Colors.yellow : Colors.red),
+                    backgroundColor: Colors.grey.shade300,
+                  ),
                 ),
               ],
             ),
